@@ -5,9 +5,9 @@ metadata:
 spec:
   selector:
     app: hello-app
-ports:
-  - protocol: TCP
-    port: 8080
-    targetPort: 8080
-    nodePort: 30080
-type: NodePort
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+      nodePort: 30080
+  type: NodePort
