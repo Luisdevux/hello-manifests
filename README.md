@@ -11,7 +11,7 @@
 
 Este repositório armazena os manifestos Kubernetes (`deployment.yaml` e `service.yaml`) para a aplicação `hello-app`.
 
-Ele atua como a **"fonte da verdade" (Source of Truth)** para o ArgoCD, implementando o princípio de GitOps. O ArgoCD monitora este repositório e garante que o estado do cluster Kubernetes seja idêntico ao estado definido nos arquivos abaixo.
+Ele atua como a **"fonte da verdade" (Source of Truth)** para o ArgoCD, implementando o princípio de GitOps. O ArgoCD monitora este repositório e garante que o estado do cluster Kubernetes seja idêntico ao estado definido nos arquivos deste repositório.
 
 ---
 
